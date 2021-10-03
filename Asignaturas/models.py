@@ -1,12 +1,14 @@
 from typing import Text
 from django.db import models
+from django.db.models.deletion import CASCADE
+from django.db.models.fields.related import ForeignKey
 
 # Create your models here.
 class materias (models.Model):
     nombre = models.CharField(max_length=100)
     area = models.CharField(max_length=100)
     grado = models.CharField(max_length=50)
-    #profesor = models.ForeignKey()
+    #profesor = models.ForeignKey(docente, on_delete=CASCADE)
 
     def __str__(self):
         return self.area + ' de ' + self.grado

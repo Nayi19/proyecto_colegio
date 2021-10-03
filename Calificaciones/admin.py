@@ -1,5 +1,5 @@
 from django.contrib import admin
-from notas.models import *
+from Calificaciones.models import *
 
 # Register your models here.
 admin.site.register(notas)
