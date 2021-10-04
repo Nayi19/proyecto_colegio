@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'Usuarios',
     'Calificaciones',
     'rest_framework',
-    'rest_framework.authtoken'
+    'rest_framework.authtoken',
+    'Historial',
 ]
 
 REST_FRAMEWORK = {
