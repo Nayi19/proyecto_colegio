@@ -20,3 +20,8 @@ class PerfilSerial(serializers.ModelSerializer):
     class Meta:
         model = Perfil
         fields = '__all__'
+
+class DocenteSerial(serializers.ModelSerializer):
+    class Meta:
+        model = docente
+        fields = '__all__'
