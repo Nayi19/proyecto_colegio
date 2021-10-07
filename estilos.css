@@ -1,0 +1,35 @@
+
+
+body {
+    background-color: #141414;
+}
+
+nav {
+    padding-top: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    padding-right: 40px;
+    padding-top: 60px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.Logo {
+    font-size: 40px;
+    color: #dbdf14;
+    padding-left: 60px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    padding-right: 400px;
+}
+
+.Logo:hover {
+    text-decoration: none;   
+}
