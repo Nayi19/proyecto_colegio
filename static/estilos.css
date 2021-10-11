@@ -1,0 +1,83 @@
+
+
+body {
+    background-color: #141414;
+}
+
+nav {
+    padding-top: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    padding-right: 40px;
+    padding-top: 60px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.Logo {
+    font-size: 40px;
+    color: #dbdf14;
+    padding-left: 60px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    padding-right: 300px;
+}
+
+.Logo:hover {
+    text-decoration: none;   
+}
+
+h1 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+
+.tituloB {
+    padding-top: 120px;
+}
+
+p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenido {
+    font-size: 20px;
+    width: 1000px;
+    margin: 30px;
+}
+
+button {
+    background-color: #ada9a9;
+    opacity: 0.7;
+    border-radius: 5px;
+    border-width: 0;
+    padding-left: 30px;
+}
+
+button:hover {
+    background-color: rgb(180, 180, 180);
+}
+
+.tBoton {
+    padding-right: 30px;
+}
+
+section {
+    padding-left: 60px;
+}
+
+.bienvenida {
+    background-image: url(./Imagenes/mina.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    padding-bottom: 80px;
+}
