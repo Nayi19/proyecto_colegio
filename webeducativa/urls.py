@@ -15,7 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from .views import landingPage
 
+#importar contenido estatico (imagenes, pdf, css, html, etc)
+from django.conf.urls.static import static
+from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -23,5 +27,7 @@ urlpatterns = [
     path('users/api/', include('Usuarios.urls')),
     path('notas/api/', include('Calificaciones.urls')),
     path('docente/api/', include('Usuarios.urls')),
-    
+    path ('', landingPage.as_view())
 ]
+
+urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
